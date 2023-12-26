@@ -1,0 +1,101 @@
+#logo-img {
+    height: 100px;
+width: 100px;
+}
+
+header {
+    background-color: #453e3e;
+}
+
+h1 {
+    color: #00DFC0;
+    font-weight: bolder;
+}
+
+.title-name {
+    color: darkmagenta;
+}
+
+.blog-text {
+    color: skyblue;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.title-name2 {
+color: darkmagenta;
+}
+
+.blog-text2 {
+color: skyblue;
+font-weight: bold;
+font-size: 17px;
+}
+
+footer p {
+    font-weight: bold;
+color: black;
+background-color: skyblue;
+}
+
+
+header a {
+    color: darkmagenta;
+}
+
+span {
+    color: darkmagenta;
+    font-style: italic;
+}
+
+#about-container {
+    border: 5px solid purple;
+    border-radius: 15px;
+  padding: 15px 25px;
+ margin: 50px auto;
+ width: 800px;
+}
+   
+#about-container p, #about-container h2 {
+    margin: 0;
+}
+
+#about-container2 {
+    border: 5px solid purple;
+    border-radius: 15px;
+  padding: 15px 25px;
+ margin: 50px auto;
+ width: 800px;
+}
+   
+#about-container2 p, #about-container2 h2 {
+    margin: 0;
+}
+
+
+#service-wrapper img {
+    width: 200px;   
+}
+
+#service-wrapper, ul, header {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+gap: 20px;
+}
+
+#service-wrapper {
+    justify-content: space-evenly;
+}
+
+header {
+    justify-content: space-between;
+ align-items: center;
+padding: 10px 30px;
+}
+
+header a:hover {
+    color: skyblue;
+    
+}
+
